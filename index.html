@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A&M Ambulant Pflege und Beratung Dienst GmbH</title>
+  <meta name="description" content="Professionelle ambulante Pflege in Wiesbaden – A&M Pflege unterstützt Sie zuverlässig und herzlich zuhause.">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background:#f0f8ff; color:#111; }
+    header { background: #00bfa5; color: white; padding: 25px; text-align: center; }
+    nav { background: #009e8f; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    section { padding: 50px 20px; max-width: 1100px; margin: auto; }
+    .hero { text-align: center; background: #d0f0ed; padding: 60px 20px; border-radius: 12px; }
+    .btn { padding: 12px 25px; background: #00bfa5; color: white; display: inline-block; margin-top: 20px; border-radius: 6px; text-decoration: none; font-weight: bold; }
+    footer { background: #009e8f; color: white; text-align: center; padding: 25px; margin-top: 20px; border-top: 5px solid #00bfa5; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(280px,1fr)); gap:20px; margin-top:30px; }
+    .card { background: #fff; border-radius: 10px; padding:20px; box-shadow:0 4px 12px rgba(0,0,0,0.1); }
+    img { width:100%; border-radius:10px; }
+    h2 { color: #00796b; }
+    ul { padding-left: 20px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>A&M Ambulant Pflege und Beratung Dienst GmbH</h1>
+    <p>Ihr Partner für professionelle ambulante Pflege & Betreuung in Wiesbaden</p>
+  </header>
+
+  <nav>
+    <a href="#leistungen">Leistungen</a>
+    <a href="#about">Über uns</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Pflege mit Herz & Kompetenz</h2>
+    <p>Wir unterstützen Sie oder Ihre Angehörigen zuverlässig im Alltag, zu Hause und mit ganzheitlichem Pflegekonzept.</p>
+    <a href="#kontakt" class="btn">Jetzt Kontakt aufnehmen</a>
+  </section>
+
+  <section id="leistungen">
+    <h2>Unsere Leistungen</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="images/grundpflege.jpg" alt="Grundpflege">
+        <h3>Grundpflege</h3>
+        <p>Körperpflege, Mobilisation, Unterstützung im Alltag</p>
+      </div>
+      <div class="card">
+        <img src="images/behandlungspflege.jpg" alt="Behandlungspflege">
+        <h3>Behandlungspflege</h3>
+        <p>Wundversorgung, Medikamentengabe, Injektionen nach ärztlicher Anordnung</p>
+      </div>
+      <div class="card">
+        <img src="images/beratung.jpg" alt="Beratung">
+        <h3>Beratung & Betreuung</h3>
+        <p>Pflegeberatung, Schulung für Angehörige, 24/7 Unterstützung</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>Über uns</h2>
+    <p>A&M Ambulant Pflege und Beratung Dienst GmbH ist ein moderner ambulanter Pflegedienst aus Wiesbaden. Unser Team besteht aus erfahrenen examinierten Pflegekräften. Geschäftsführer: Barati</p>
+    <div class="grid">
+      <div class="card"><img src="images/team.jpg" alt="Team Pflege"></div>
+      <div class="card"><img src="images/pflege.jpg" alt="Pflege"></div>
+      <div class="card"><img src="images/betreuung.jpg" alt="Betreuung"></div>
+    </div>
+  </section>
+
+  <section id="kontakt">
+    <h2>Kontakt</h2>
+    <p><strong>Adresse:</strong> Karl-Marx-Straße 28, Wiesbaden</p>
+    <p><strong>Email:</strong> (später einfügen)</p>
+    <p><strong>Telefon:</strong> (später einfügen)</p>
+    <a href="#" class="btn">WhatsApp Kontakt (später)</a>
+  </section>
+
+  <section id="impressum">
+    <h2>Impressum</h2>
+    <p>A&M Ambulant Pflege und Beratung Dienst GmbH<br>Geschäftsführer: Barati<br>Adresse: Karl-Marx-Straße 28, Wiesbaden<br>Handelsregister: folgt<br>USt-ID: folgt<br>Email & Telefon: folgen später</p>
+  </section>
+
+  <section id="datenschutz">
+    <h2>Datenschutzerklärung (Kurzversion)</h2>
+    <p>Personenbezogene Daten werden nur zur Kontaktaufnahme verwendet. Vollständige DSGVO-konforme Version bitte anpassen.</p>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> A&M Ambulant Pflege und Beratung Dienst GmbH — Alle Rechte vorbehalten</p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+
+</body>
+</html>
